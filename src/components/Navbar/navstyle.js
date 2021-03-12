@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link as RLink } from "react-router-dom";
 
 export const Nav = styled.nav`
     background: linear-gradient(90deg, rgb(4, 4, 206), #00B0FF);

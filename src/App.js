@@ -11,7 +11,7 @@ import UpdateProfile from "../src/components/UpdateProfile"
 // import Profile from "./Profile Section/Profile"
 // import Default from '../components/Default/Default'
 import Footer from "./components/Footer/footer"
-import Navbar from "./components/Front/Navbar/navbar"
+import Navbar from "./components/Navbar/navbar"
 
 function App() {
   return (

@@ -5,7 +5,7 @@ import { Link, useHistory } from "react-router-dom"
 import About from '../Front/About/about';
 import { one, three, two } from '../Front/About/data';
 import Main from '../Front/Main/main';
-import Navbar from '../Front/Navbar/navbar';
+import Navbar from '../Navbar/navbar';
 import Services from '../Front/Services/services';
 import Footer from '../../components/Footer/footer'
 

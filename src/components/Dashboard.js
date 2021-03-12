@@ -2,6 +2,9 @@ import React, { useState } from "react"
 import { Card, Button, Alert } from "react-bootstrap"
 import { useAuth } from "../contexts/AuthContext"
 import { Link, useHistory } from "react-router-dom"
+import Image1 from "./images/cooking.svg";
+import Image2 from "./images/coding.svg";
+import './dash.css';
 
 export default function Dashboard() {
   const [error, setError] = useState("")
@@ -21,6 +24,25 @@ export default function Dashboard() {
 
   return (
     <>
+    <div class="main-body">
+        <div class="title">
+            <h1>Explore!</h1>
+        </div>
+        <div class="option-boxes">
+            <button class="one">
+              Cooking
+            </button>
+            <button class="two">
+            Coding
+            </button>
+            <button class="one">
+                read
+            </button>
+            <button class="one">
+                code
+            </button>
+        </div>
+    </div>
       <Card>
         <Card.Body>
           <h2 className="text-center mb-4">Profile</h2>

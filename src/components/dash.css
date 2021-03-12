@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background: #f4f8f9;
+    min-height: 100vh;
+}
+
+.title h1 {
+    font-weight: bold;
+    color: rgb(4, 4, 206);
+    margin: 20px;
+    font-size: 80px;
+    font-style: italic;
+}
+
+.option-boxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+}
+
+.one::before{
+    background: url('./images/cooking.svg') no-repeat center center/cover;
+    content: "";
+    top: 0;
+    width: 0;
+    height: 30vh;
+    width: 18rem;
+    margin-bottom: 25px;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 7px;
+    width: 18rem;
+    font-size: 25px;
+    border: none;
+    border-left: 0.5px solid #00B0FF;
+    border-right: 0.5px solid #00B0FF;
+    border-radius: 30px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.option-boxes .one:hover {
+    border: none;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.2);
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.two::before{
+    background: url('./images/coding.svg') no-repeat center center/cover;
+    content: "";
+    top: 0;
+    width: 0;
+    height: 30vh;
+    width: 18rem;
+    margin-bottom: 25px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 7px;
+    width: 18rem;
+    font-size: 25px;
+    border: none;
+    border-left: 0.5px solid #00B0FF;
+    border-right: 0.5px solid #00B0FF;
+    border-radius: 30px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.option-boxes .two:hover {
+    border: none;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.2);
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
