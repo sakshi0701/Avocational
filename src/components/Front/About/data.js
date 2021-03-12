@@ -8,7 +8,7 @@ export const one = {
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores excepturi culpa aperiam totam accusantium alias nulla voluptate placeat aliquid, facilis officia cum deserunt",
     buttonLabel: 'Buy now',
     imgStart: false,
-    img: require('../Images/svg-3.svg'),
+    // img: require('../Images/svg-3.svg'),
     alt: 'image',
     // for button: 
     dark: true,
@@ -26,7 +26,7 @@ export const two = {
     description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores excepturi culpa aperiam totam accusantium alias.',
     buttonLabel: 'Learn More',
     imgStart: true,
-    img: require('../Images/svg-1.svg'),
+    // img: require('../Images/svg-1.svg'),
     alt: 'image',
     // for button: 
     dark: false,
@@ -44,7 +44,7 @@ export const three = {
     description: 'Get everything set up and ready in under 10 minutes. All you need to do is add your information and you are ready to go.',
     buttonLabel: 'Sign Up Now',
     imgStart: false,
-    img: require('../Images/svg-1.svg'),
+    // img: require('../Images/svg-1.svg'),
     alt: 'image',
     // for button: 
     dark: false,

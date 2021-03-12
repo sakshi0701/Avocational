@@ -6,8 +6,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background: #fc5185;
-font-family: 'Lobster', cursive;
+background: #00B0FF;
 
 @media screen and (max-width: 768px) {
     height: 1100px;
@@ -21,6 +20,7 @@ export const H1 = styled.h1`
 font-size: 3rem;
 color: white;
 margin-bottom: 64px;
+font-family: 'Lobster', cursive;
 
 @media screen and (max-width: 480px) {
     font-size: 2rem;

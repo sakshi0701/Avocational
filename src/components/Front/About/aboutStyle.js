@@ -65,7 +65,7 @@ margin-bottom: 24px;
 font-size: 48px;
 line-height: 1.1;
 font-weight: 600;
-color: ${({ lightText }) => (lightText ? '#fc5185' : 'orange')};
+color: ${({ lightText }) => (lightText ? 'rgb(4, 4, 206)' : '#00B0FF')};
 
 @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -77,7 +77,7 @@ max-width: 440px;
 margin-bottom: 35px;
 font-size: 20px;
 line-height: 24px;
-color: ${({ lightText }) => (lightText ? 'orange' : '#fc5185')};
+color: ${({ lightText }) => (lightText ? 'rgb(4, 4, 206)' : '#00B0FF')};
 `;
 
 export const ButtonWrap = styled.div`

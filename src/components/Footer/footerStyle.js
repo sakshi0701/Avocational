@@ -7,7 +7,6 @@ align-items: center;
 padding: 20px;
 margin-bottom: 20px;
 background-color: rgb(189, 192, 196);
-color: white;
 `;
 
 export const H1 = styled.h1`

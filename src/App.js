@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import styled from "styled-components";
 import Signup from "./components/Front/Signup"
 import { AuthProvider } from "../src/contexts/AuthContext"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
@@ -10,6 +11,7 @@ import UpdateProfile from "../src/components/UpdateProfile"
 // import Profile from "./Profile Section/Profile"
 // import Default from '../components/Default/Default'
 import Footer from "./components/Footer/footer"
+import Navbar from "./components/Front/Navbar/navbar"
 
 function App() {
   return (
@@ -18,23 +20,32 @@ function App() {
       style={{ minHeight: "100vh" }}
     >
       <div className="w-100">
-        <Router>
-          <AuthProvider>
-            <Switch>
-              <PrivateRoute exact path="/" component={Dashboard} />
-              <PrivateRoute path="/update-profile" component={UpdateProfile} />
-              {/* <PrivateRoute path="/profile" component={Profile} /> */}
-              {/* <Route component={Default} /> */}
-              <Route path="/signup" component={Signup} />
-              <Route path="/login" component={Login} />
-              <Route path="/forgot-password" component={ForgotPassword} />
-            </Switch>
-          </AuthProvider>
-        </Router>
+        <Navbar />
+        <Main>
+          <Router>
+            <AuthProvider>
+              <Switch>
+                <PrivateRoute exact path="/" component={Dashboard} />
+                <PrivateRoute path="/update-profile" component={UpdateProfile} />
+                {/* <PrivateRoute path="/profile" component={Profile} /> */}
+                {/* <Route component={Default} /> */}
+                <Route path="/signup" component={Signup} />
+                <Route path="/login" component={Login} />
+                <Route path="/forgot-password" component={ForgotPassword} />
+              </Switch>
+            </AuthProvider>
+          </Router>
+        </Main>
         <Footer />
       </div>
-      </div>
+    </div>
   )
 }
 
 export default App;
+
+
+
+const Main = styled.div`
+  margin-top: 80px;
+`;
