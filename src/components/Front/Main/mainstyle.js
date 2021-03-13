@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import image from "./heart.jpg";
 
 export const Container = styled.div`
 background: linear-gradient(90deg, #1687a7, #00B0FF);
@@ -9,6 +10,9 @@ padding: 0 30px;
 height: 500px;
 position: relative;
 z-index: 1;
+background: black;
+
+
 `;
 
 export const Background = styled.div`
@@ -20,6 +24,9 @@ left: 0;
 width: 100%;
 height: 100%;
 overflow: hidden;
+background-image : url(${image});
+background-size: 100%;
+opacity:0.5;
 `;
 
 export const Content = styled.div`
@@ -30,34 +37,28 @@ padding: 8px, 24px;
 display: flex;
 flex-direction: column;
 align-items: center;
+
 `;
 
-export const H1 = styled.h1`
-color: white;
-font-size: 48px;
-text-align: center;
 
-@media screen and (max-width: 768px) {
-    font-size: 40px;
-}
-
-@media screen and (max-width: 480px) {
-    font-size: 32px;
-}
-`;
 
 export const P = styled.p`
-margin-top: 24px;
+margin-top: 100px;
 color: white;
-font-size: 24px;
+font-size: 30px;
 text-align: center;
 max-width: 600px;
 
 @media screen and (max-width: 768px) {
-    font-size: 24px;
+    font-size: 30px;
+    margin-top: 40px;
+    background-size:100%;
 }
 
 @media screen and (max-width: 480px) {
-    font-size: 18px;
+    font-size: 30px;
+    margin-top: 40px;
+    background-size:100%;
 }
 `;
+
