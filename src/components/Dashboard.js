@@ -37,7 +37,7 @@ export default function Dashboard() {
             read
             </button>
           <button class="one">
-            code
+          <Link to="/design">Designing</Link>
             </button>
         </div>
       </div>

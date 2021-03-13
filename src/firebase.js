@@ -1,4 +1,5 @@
 import firebase from "firebase/app"
+import 'firebase/storage';
 import "firebase/auth";
 require('dotenv').config()
 
@@ -12,5 +13,9 @@ const app = firebase.initializeApp({
   appId: process.env.REACT_APP_FIREBASE_APP_ID
 })
 
+const storage = firebase.storage().ref();
+
 export const auth = app.auth()
-export default app
+export {
+  storage, app as default
+}

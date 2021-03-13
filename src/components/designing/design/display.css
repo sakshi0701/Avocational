@@ -1,0 +1,35 @@
+.imgTshirt {
+    position: relative;
+}
+
+.picText {
+    position: absolute;
+    top: 190px;
+    left: 210px;
+}
+
+.picText img {
+    max-width: 320px;
+    border: 6px solid white;
+}
+
+.picText p {
+    color: white;
+    font-size: large;
+}
+
+.lowerText p {
+    margin-top: 10px;
+}
+
+.tshirt-color {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.tshirt-color img {
+    height: 15%;
+    width: 15%;
+}

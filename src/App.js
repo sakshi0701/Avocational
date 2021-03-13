@@ -18,6 +18,7 @@ import DessertPg from "./components/cooking/pages/DessertPg"
 import BakePg from "./components/cooking/pages/BakePg"
 import VegPg from "./components/cooking/pages/VegPg"
 import IndPg from "./components/cooking/pages/IndPg"
+import Designing from "./components/designing/Designing"
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
                 <PrivateRoute path="/bake" component={BakePg} />
                 <PrivateRoute path="/veg" component={VegPg} />
                 <PrivateRoute path="/ind" component={IndPg} />
+                <PrivateRoute path="/design" component={Designing} />
                 <Route path="/signup" component={Signup} />
                 <Route path="/login" component={Login} />
                 <Route path="/forgot-password" component={ForgotPassword} />
