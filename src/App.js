@@ -8,10 +8,9 @@ import Login from "./components/Front/Login"
 import PrivateRoute from "../src/components/PrivateRoute"
 import ForgotPassword from "../src/components/ForgotPassword"
 import UpdateProfile from "../src/components/UpdateProfile"
-// import Profile from "./Profile Section/Profile"
-// import Default from '../components/Default/Default'
 import Footer from "./components/Footer/footer"
 import Navbar from "./components/Navbar/navbar"
+import Code from "./components/coding/Code";
 
 function App() {
   return (
@@ -27,8 +26,7 @@ function App() {
               <Switch>
                 <PrivateRoute exact path="/" component={Dashboard} />
                 <PrivateRoute path="/update-profile" component={UpdateProfile} />
-                {/* <PrivateRoute path="/profile" component={Profile} /> */}
-                {/* <Route component={Default} /> */}
+                <PrivateRoute path="/code" component={Code} />
                 <Route path="/signup" component={Signup} />
                 <Route path="/login" component={Login} />
                 <Route path="/forgot-password" component={ForgotPassword} />

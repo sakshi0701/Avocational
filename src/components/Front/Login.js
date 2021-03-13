@@ -7,7 +7,6 @@ import { one, three, two } from '../Front/About/data';
 import Main from '../Front/Main/main';
 import Navbar from '../Navbar/navbar';
 import Services from '../Front/Services/services';
-import Footer from '../../components/Footer/footer'
 
 export default function Login() {
 
