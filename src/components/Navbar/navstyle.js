@@ -32,13 +32,15 @@ export const NavLogo = styled.div`
         justify-self: flex-start;
         display: flex;
         align-items: center;
-        margin-left: 24px;
+        margin-left: 10px;
         margin-top: 12px;
         font-size: 35px;
         font-family: 'Lobster', cursive;
         letter-spacing: 2px;
         text-decoration: none;
         cursor: pointer;
+        
+           
 
         &:hover {
             color: white;
@@ -46,4 +48,20 @@ export const NavLogo = styled.div`
         }
     }
     
+`;
+
+export const Snow = styled.div`
+transition: all linear;
+animation: rot 2s linear infinite;
+margin : 10px;
+
+
+@keyframes rot{
+0%{
+    transform : rotate(0deg);
+}
+0%{
+    transform : rotate(360deg);
+}
+}
 `;
