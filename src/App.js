@@ -11,11 +11,17 @@ import UpdateProfile from "../src/components/UpdateProfile"
 import Footer from "./components/Footer/footer"
 import Navbar from "./components/Navbar/navbar"
 import Code from "./components/coding/Code";
+import Recipes from "./components/cooking/recipes/Recipes"
+import NotesPg from "./components/cooking/pages/NotesPg"
+import DrinksPg from "./components/cooking/pages/DrinksPg"
+import DessertPg from "./components/cooking/pages/DessertPg"
+import BakePg from "./components/cooking/pages/BakePg"
+import VegPg from "./components/cooking/pages/VegPg"
+import IndPg from "./components/cooking/pages/IndPg"
 
 function App() {
   return (
-    <div className="Container"
-      className="d-flex"
+    <div className="Container d-flex"
       style={{ minHeight: "100vh" }}
     >
       <div className="w-100">
@@ -27,6 +33,13 @@ function App() {
                 <PrivateRoute exact path="/" component={Dashboard} />
                 <PrivateRoute path="/update-profile" component={UpdateProfile} />
                 <PrivateRoute path="/code" component={Code} />
+                <PrivateRoute path="/cook" component={Recipes} />
+                <PrivateRoute path="/recipe-notes" component={NotesPg} />
+                <PrivateRoute path="/drinks" component={DrinksPg} />
+                <PrivateRoute path="/dessert" component={DessertPg} />
+                <PrivateRoute path="/bake" component={BakePg} />
+                <PrivateRoute path="/veg" component={VegPg} />
+                <PrivateRoute path="/ind" component={IndPg} />
                 <Route path="/signup" component={Signup} />
                 <Route path="/login" component={Login} />
                 <Route path="/forgot-password" component={ForgotPassword} />

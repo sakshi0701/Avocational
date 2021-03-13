@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from "../ButtonElements";
-import { Container, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, SubTitle, ButtonWrap, ImgWrap, Img } from "./aboutStyle";
+import { Container, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Heading, SubTitle, ButtonWrap, ImgWrap, Img } from "./aboutStyle";
 import Icon from "./about.svg";
 
 const About = ({ lightBg, lightText, id, TopLine, imgStart, heading, description, buttonLabel, darkText, img, alt, primary, dark, dark2 }) => {

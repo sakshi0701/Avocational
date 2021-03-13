@@ -28,8 +28,8 @@ export default function Dashboard() {
         </div>
         <div class="option-boxes">
           <button class="one">
-            Cooking
-            </button>
+            <Link to="/cook">Cooking</Link>
+          </button>
           <button class="two">
             <Link to="/code">Coding</Link>
           </button>

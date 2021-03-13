@@ -3,19 +3,12 @@ import { Form, Button, Card, Alert } from "react-bootstrap"
 import { useAuth } from "../../contexts/AuthContext"
 import { Link, useHistory } from "react-router-dom"
 import About from '../Front/About/about';
-import { one, three, two } from '../Front/About/data';
+import { one } from '../Front/About/data';
 import Main from '../Front/Main/main';
 import Navbar from '../Navbar/navbar';
 import Services from '../Front/Services/services';
 
 export default function Login() {
-
-  const [isOpen, setIsOpen] = useState(false);
-
-  // toggle option for mobileIcon
-  const toggle = () => {
-    setIsOpen(!isOpen)
-  };
 
   const emailRef = useRef()
   const passwordRef = useRef()
@@ -41,7 +34,7 @@ export default function Login() {
 
   return (
     <>
-      <Navbar toggle={toggle} />
+      <Navbar />
       <Main />
       <About {...one} />
       <Services />

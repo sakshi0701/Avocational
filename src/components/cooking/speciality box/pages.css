@@ -1,0 +1,46 @@
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.main {
+  border-radius: 8px;
+  background-color: rgb(149, 234, 255);
+  border-left: 4px solid rgb(4, 4, 206);
+  border-right: 4px solid rgb(4, 4, 206);
+  box-shadow: 0px 5px 20px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 45%;
+  margin: 20px;
+  padding: 15px;
+  font-family: 'Lemonada', cursive;
+}
+
+.main h2 {
+font-weight: bolder;
+color: rgb(4, 4, 206);
+}
+
+.main h3{
+font-weight: bold;
+}
+
+.main h6 {
+color: blue;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.type {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image {
+  border-radius: 8px;
+  height: 200px;
+  width: 200px;
+}
