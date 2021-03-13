@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Background, Content, H1, P } from "./mainstyle";
+import { Container, Background, Content, P } from "./mainstyle";
 
 const Main = () => {
     return (
@@ -7,9 +7,9 @@ const Main = () => {
             <Background>
                 {/* <Image src = {} /> */}
             </Background>
-            <Content>
-                <H1> A TagLine</H1>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam atque ea suscipit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse quam ratione voluptatem?</P>
+            <Content >
+
+                <P > When Passion meets work, Work becomes a hobby!!</P>
             </Content>
         </Container>
     )
