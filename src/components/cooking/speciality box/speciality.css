@@ -6,9 +6,9 @@
     height: 90px;
     padding: 20px;
     margin: 20px;
-    border: 2px solid rgb(4, 4, 206);
+    border: 2px solid #1687a7;
     border-radius: 20px;
-    background: linear-gradient(to right, #00B0FF, rgb(4, 4, 206));
+    background: #1687a7;
 }
 
 .speciality a {
@@ -16,12 +16,12 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    background: rgb(4, 4, 206);
-    color: yellow;
+    background: #ee99a0;
+    color: white;
     border-radius: 30px;
     width: 150px;
     height: 50px;
-    border: 2px solid #00B0FF;
+    /* border: 2px solid #00B0FF; */
 }
 
 .speciality a:hover {

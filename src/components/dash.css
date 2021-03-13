@@ -96,3 +96,37 @@ body {
     transition: all 0.2s linear;
     cursor: pointer;
 }
+
+.three::before{
+    background: url('./images/designing.svg') no-repeat center center/cover;
+    content: "";
+    top: 0;
+    width: 0;
+    height: 30vh;
+    width: 18rem;
+    margin-bottom: 25px;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 7px;
+    width: 18rem;
+    font-size: 25px;
+    border: none;
+    border-left: 0.5px solid #00B0FF;
+    border-right: 0.5px solid #00B0FF;
+    border-radius: 30px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.option-boxes .three:hover {
+    border: none;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.2);
+    transition: all 0.2s linear;
+    cursor: pointer;
+}

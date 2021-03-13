@@ -33,10 +33,7 @@ export default function Dashboard() {
           <button class="two">
             <Link to="/code">Coding</Link>
           </button>
-          <button class="one">
-            read
-            </button>
-          <button class="one">
+          <button class="three">
           <Link to="/design">Designing</Link>
             </button>
         </div>

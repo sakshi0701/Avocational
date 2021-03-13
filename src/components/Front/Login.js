@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react"
+import styled from 'styled-components';
 import { Form, Button, Card, Alert } from "react-bootstrap"
 import { useAuth } from "../../contexts/AuthContext"
 import { Link, useHistory } from "react-router-dom"
@@ -39,7 +40,8 @@ export default function Login() {
       <About {...one} />
       <Services />
       {/* <About {...three} /> */}
-      <Card>
+      <Card className="d-flex justify-content-center align-items-center">
+        <LoginBox>
           <Card.Body>
             <h2 className="text-center mb-4">Log In</h2>
             {error && <Alert variant="danger">{error}</Alert>}
@@ -63,7 +65,15 @@ export default function Login() {
               Need an account? <Link to="/signup">Sign Up</Link>
             </div>
           </Card.Body>
-        </Card>
+        </LoginBox>
+      </Card>
     </>
   )
 }
+
+const LoginBox = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+`;

@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-background: linear-gradient(90deg, rgb(4, 4, 206), #00B0FF);
+background: linear-gradient(90deg, #1687a7, #00B0FF);
 display: flex;
 justify-content: center;
 align-items: center;
 padding: 0 30px;
-height: 800px;
+height: 500px;
 position: relative;
 z-index: 1;
 `;

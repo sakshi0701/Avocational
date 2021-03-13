@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-    background: linear-gradient(90deg, rgb(4, 4, 206), #00B0FF);
+    background: linear-gradient(90deg, #1687a7, #00B0FF);
     height: 80px;
     margin-top: -80px; 
     display: flex;
