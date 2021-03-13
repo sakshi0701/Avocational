@@ -29,4 +29,5 @@ const About = ({ lightBg, lightText, id, imgStart, heading, description, darkTex
     )
 }
 
+
 export default About;
