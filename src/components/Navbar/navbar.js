@@ -1,8 +1,9 @@
 import React from 'react';
-import {Nav,NavbarContainer,NavLogo } from "./navstyle.js";
+import { Nav, NavbarContainer, NavLogo, Snow } from "./navstyle.js";
 import { animateScroll as scroll } from "react-scroll";
+import { FaRegSnowflake } from "react-icons/fa";
 
-const Navbar = ({toggle}) => {
+const Navbar = ({ toggle }) => {
 
     // scrolls up when we click the logo or name
     const toggleHome = () => {
@@ -12,8 +13,9 @@ const Navbar = ({toggle}) => {
     return (
         <>
             <Nav>
-                <NavbarContainer>
-                    <NavLogo onClick={toggleHome}><a href='/' onClick={toggleHome}>Name of Site</a></NavLogo>
+                <NavbarContainer >
+                    <NavLogo onClick={toggleHome}><a href='/' onClick={toggleHome}><Snow><FaRegSnowflake /></Snow> Avocational <Snow><FaRegSnowflake /></Snow></a></NavLogo>
+
                 </NavbarContainer>
             </Nav>
         </>
