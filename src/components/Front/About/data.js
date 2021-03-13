@@ -3,10 +3,11 @@ export const one = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    TopLine: 'topline1',
-    heading: 'Heading',
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores excepturi culpa aperiam totam accusantium alias nulla voluptate placeat aliquid, facilis officia cum deserunt",
-    buttonLabel: 'Buy now',
+
+    heading: 'Discover Your Hobbies',
+    description: `"A man practices the art of adventure when he breaks the chain of routine and renews his life through reading new books, traveling to new places, making new friends, taking up new hobbies and adopting new viewpoints”
+    ― Wilfred Peterson`,
+
     imgStart: false,
     // img: require('../Images/svg-3.svg'),
     alt: 'image',
