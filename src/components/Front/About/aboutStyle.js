@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 color: b;ack;
-background: ${({lightBg})=> (lightBg ? 'rgb(255, 198, 247)' : "#f4f8f9")};
+background: ${({ lightBg }) => (lightBg ? 'rgb(255, 198, 247)' : "#f4f8f9")};
 
 @media screen and (max-width: 768px) {
     padding: 100px 0px;
@@ -25,10 +25,10 @@ export const InfoRow = styled.div`
 display: grid;
 grid-auto-colums: minmax(auto, 1fr);
 align-items: center;
-grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
 @media screen and (max-width: 768px) {
-    grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
+    grid-template-areas: ${({ imgStart }) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
 }
 `;
 
@@ -65,7 +65,7 @@ margin-bottom: 24px;
 font-size: 48px;
 line-height: 1.1;
 font-weight: 600;
-color: ${({ lightText }) => (lightText ? 'rgb(4, 4, 206)' : '#00B0FF')};
+color: ${({ lightText }) => (lightText ? '#0F4C75' : '#00B0FF')};
 
 @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -77,7 +77,7 @@ max-width: 440px;
 margin-bottom: 35px;
 font-size: 20px;
 line-height: 24px;
-color: ${({ lightText }) => (lightText ? 'rgb(4, 4, 206)' : '#00B0FF')};
+color: ${({ lightText }) => (lightText ? 'rgb(4, 4, 206)' : '#0E49B5')};
 `;
 
 export const ButtonWrap = styled.div`
