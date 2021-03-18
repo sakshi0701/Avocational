@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/SheHacks_Team-127/static/css/main.33872dd6.chunk.css",
+    "main.js": "/SheHacks_Team-127/static/js/main.12c103c4.chunk.js",
+    "main.js.map": "/SheHacks_Team-127/static/js/main.12c103c4.chunk.js.map",
+    "runtime-main.js": "/SheHacks_Team-127/static/js/runtime-main.07ac6504.js",
+    "runtime-main.js.map": "/SheHacks_Team-127/static/js/runtime-main.07ac6504.js.map",
+    "static/css/2.3cc48d0c.chunk.css": "/SheHacks_Team-127/static/css/2.3cc48d0c.chunk.css",
+    "static/js/2.0fd37ec4.chunk.js": "/SheHacks_Team-127/static/js/2.0fd37ec4.chunk.js",
+    "static/js/2.0fd37ec4.chunk.js.map": "/SheHacks_Team-127/static/js/2.0fd37ec4.chunk.js.map",
+    "index.html": "/SheHacks_Team-127/index.html",
+    "static/css/2.3cc48d0c.chunk.css.map": "/SheHacks_Team-127/static/css/2.3cc48d0c.chunk.css.map",
+    "static/css/main.33872dd6.chunk.css.map": "/SheHacks_Team-127/static/css/main.33872dd6.chunk.css.map",
+    "static/js/2.0fd37ec4.chunk.js.LICENSE.txt": "/SheHacks_Team-127/static/js/2.0fd37ec4.chunk.js.LICENSE.txt",
+    "static/media/about.1bd39ed8.svg": "/SheHacks_Team-127/static/media/about.1bd39ed8.svg",
+    "static/media/code.8fa7c6fd.svg": "/SheHacks_Team-127/static/media/code.8fa7c6fd.svg",
+    "static/media/dash.css": "/SheHacks_Team-127/static/media/designing.547ed63c.svg",
+    "static/media/cook.976edc9e.svg": "/SheHacks_Team-127/static/media/cook.976edc9e.svg",
+    "static/media/fashion.5466744a.svg": "/SheHacks_Team-127/static/media/fashion.5466744a.svg",
+    "static/media/heart.88b5da96.jpg": "/SheHacks_Team-127/static/media/heart.88b5da96.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07ac6504.js",
+    "static/css/2.3cc48d0c.chunk.css",
+    "static/js/2.0fd37ec4.chunk.js",
+    "static/css/main.33872dd6.chunk.css",
+    "static/js/main.12c103c4.chunk.js"
+  ]
+}
