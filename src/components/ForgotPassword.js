@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react"
-import { Form, Button, Card, Alert } from "react-bootstrap"
+import { Form, Button, Container, Card, Alert } from "react-bootstrap"
 import { useAuth } from "../contexts/AuthContext"
 import { Link } from "react-router-dom"
 
@@ -28,25 +28,27 @@ export default function ForgotPassword() {
 
   return (
     <>
-      <Card>
-        <Card.Body>
-          <h2 className="text-center mt-4 mb-5">Password Reset</h2>
-          {error && <Alert variant="danger">{error}</Alert>}
-          {message && <Alert variant="success">{message}</Alert>}
-          <Form onSubmit={handleSubmit}>
-            <Form.Group id="email">
-              <Form.Label>Email</Form.Label>
-              <Form.Control type="email" ref={emailRef} required />
-            </Form.Group>
-            <Button disabled={loading} className="w-100 mt-5 mb-3" type="submit">
-              Reset Password
+      <Container className="d-flex align-items-center justify-content-center">
+        <Card style={{ width: "70%" }}>
+          <Card.Body>
+            <h2 className="text-center mt-4 mb-5">Password Reset</h2>
+            {error && <Alert variant="danger">{error}</Alert>}
+            {message && <Alert variant="success">{message}</Alert>}
+            <Form onSubmit={handleSubmit}>
+              <Form.Group id="email">
+                <Form.Label>Email</Form.Label>
+                <Form.Control type="email" ref={emailRef} required />
+              </Form.Group>
+              <Button disabled={loading} className="w-100 mt-5 mb-3 btn-info" type="submit">
+                Reset Password
             </Button>
-          </Form>
-          <div className="w-100 text-center mt-3">
-            <Link to="/login">Login</Link>
-          </div>
-        </Card.Body>
-      </Card>
+            </Form>
+            <div className="w-100 text-center mt-3">
+              <Link to="/login">Login</Link>
+            </div>
+          </Card.Body>
+        </Card>
+      </Container>
       <div className="w-100 text-center mt-4 mb-5">
         Need an account? <Link to="/signup">Sign Up</Link>
       </div>

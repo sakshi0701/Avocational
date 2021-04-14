@@ -15,7 +15,6 @@ const Navbar = ({ toggle }) => {
             <Nav>
                 <NavbarContainer >
                     <NavLogo onClick={toggleHome}><a href='/' onClick={toggleHome}><Snow><FaRegSnowflake /></Snow> Avocational <Snow><FaRegSnowflake /></Snow></a></NavLogo>
-
                 </NavbarContainer>
             </Nav>
         </>

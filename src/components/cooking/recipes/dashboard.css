@@ -7,7 +7,7 @@ body {
   min-height: 200vh;
   width: 100%;
   padding: 0px;
-  margin: 0px;
+  margin-top: -80px;
 }
 
 h1 {
@@ -18,7 +18,7 @@ p {
   font-weight: bold;
 }
 
-span{
+.App span{
   font-weight: bold;
   font-style: italic;
   font-family: 'Times New Roman', Times, serif;
@@ -41,12 +41,12 @@ span{
   width: 70%;
   border: none;
   background-color: rgb(225, 225, 228);
-  border-bottom: 2px solid rgb(4, 4, 206);
+  border-bottom: 2px solid #1687a7;
   padding: 10px;
 }
 
 .search-button {
-  background-color: rgb(4, 4, 206);
+  background-color: #1687a7;
   color: white;
   padding: 10px 20px;
   margin: 20px;

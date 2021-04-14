@@ -1,11 +1,10 @@
 /* Here, the css of the recipe.js file will only be affected even if it shares the same class name with some other file  */
 
 .recipe {
-    /* border: 2px solid blue; */
     border-radius: 8px;
     background-color: rgb(147, 203, 255);
-    border-left: 4px solid rgb(4, 4, 206);
-    border-right: 4px solid rgb(4, 4, 206);
+    border-left: 4px solid #1687a7;
+    border-right: 4px solid #1687a7;
     box-shadow: 0px 5px 20px black;
     display: flex;
     flex-direction: column;

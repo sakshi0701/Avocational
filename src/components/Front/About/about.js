@@ -10,10 +10,8 @@ const About = ({ lightBg, lightText, id, imgStart, heading, description, darkTex
                     <InfoRow imgStart={imgStart}>
                         <Column1>
                             <TextWrapper>
-
                                 <Heading lightText={lightText}>{heading}</Heading>
                                 <SubTitle darkText={darkText}>{description}</SubTitle>
-
                             </TextWrapper>
                         </Column1>
                         <Column2>

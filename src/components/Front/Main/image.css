@@ -1,0 +1,16 @@
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    overflow: hidden;
+}
+
+.background::before{
+    background: url('./image.jpg') no-repeat center center/cover;
+    content: "";
+    top: 0;
+    height: 500px;
+    width: 230vh;
+    opacity: 0.4;
+}

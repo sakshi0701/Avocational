@@ -1,8 +1,7 @@
 import React, { useRef, useState } from "react"
-import { Form, Button, Card, Alert } from "react-bootstrap"
+import { Form, Button, Card, Alert, Container } from "react-bootstrap"
 import { useAuth } from "../../contexts/AuthContext"
 import { Link, useHistory } from "react-router-dom"
-import styled from "styled-components";
 
 export default function Signup() {
   const emailRef = useRef()
@@ -34,10 +33,10 @@ export default function Signup() {
 
   return (
     <>
-      <Card className="d-flex justify-content-center align-items-center">
-        <SignupBox>
+      <Container className="d-flex align-items-center justify-content-center">
+        <Card style={{ width: "70%" }}>
           <Card.Body>
-            <h2 className="text-center mb-5">Sign Up</h2>
+            <h2 className="text-center mb-2">Sign Up</h2>
             {error && <Alert variant="danger">{error}</Alert>}
             <Form onSubmit={handleSubmit}>
               <Form.Group id="email">
@@ -57,17 +56,11 @@ export default function Signup() {
             </Button>
             </Form>
           </Card.Body>
-        </SignupBox>
-      </Card>
+        </Card>
+      </Container>
       <div className="w-100 text-center mt-2 mb-4">
         Already have an account? <Link to="/login">Log In</Link>
       </div>
     </>
   )
 }
-const SignupBox = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 800px;
-`;

@@ -10,12 +10,12 @@ body {
     flex-direction: column;
     background: #f4f8f9;
     min-height: 100vh;
+    margin-top: -80px;
 }
 
 .title h1 {
     font-weight: bold;
-    color: rgb(4, 4, 206);
-    margin: 20px;
+    color: #1687a7;
     font-size: 80px;
     font-style: italic;
 }
@@ -25,6 +25,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     padding: 30px;
     margin: 20px;
 }

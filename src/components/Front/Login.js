@@ -1,12 +1,10 @@
-import React, { useRef, useState } from "react"
-import styled from 'styled-components';
-import { Form, Button, Card, Alert } from "react-bootstrap"
+import React, { useRef, useState } from "react";
+import { Form, Button, Container, Card, Alert } from "react-bootstrap"
 import { useAuth } from "../../contexts/AuthContext"
 import { Link, useHistory } from "react-router-dom"
 import About from '../Front/About/about';
 import { one } from '../Front/About/data';
 import Main from '../Front/Main/main';
-import Navbar from '../Navbar/navbar';
 import Services from '../Front/Services/services';
 
 export default function Login() {
@@ -35,13 +33,12 @@ export default function Login() {
 
   return (
     <>
-      <Navbar />
       <Main />
       <About {...one} />
       <Services />
       {/* <About {...three} /> */}
-      <Card className="d-flex justify-content-center align-items-center">
-        <LoginBox>
+      <Container className="d-flex align-items-center justify-content-center">
+        <Card style={{ width: "70%" }}>
           <Card.Body>
             <h2 className="text-center mb-4">Log In</h2>
             {error && <Alert variant="danger">{error}</Alert>}
@@ -65,15 +62,8 @@ export default function Login() {
               Need an account? <Link to="/signup">Sign Up</Link>
             </div>
           </Card.Body>
-        </LoginBox>
-      </Card>
+        </Card>
+      </Container>
     </>
   )
 }
-
-const LoginBox = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 800px;
-`;
